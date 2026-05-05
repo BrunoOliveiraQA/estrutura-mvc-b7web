@@ -2,6 +2,8 @@
 
 require_once '../app/core/Router.php';
 
+require_once __DIR__ . '/../vendor/autoload.php';
+
 echo "Arquivo Index dentro da pasta public<br>";
 echo "<hr>";
 
