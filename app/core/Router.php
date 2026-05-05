@@ -15,7 +15,6 @@ class Router{
 
         $controllerName = $parts[0] ?? 'Home';
 
-        
         $controllerName = 'App\Controllers\\'. ucfirst($controllerName) . 'Controller';
         
         $actionName = $parts[1] ?? 'index';
