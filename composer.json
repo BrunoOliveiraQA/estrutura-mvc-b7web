@@ -1,0 +1,16 @@
+{
+    "name": "bruno/mvc",
+    "description": "MVC Structure",
+    "autoload": {
+        "psr-4": {
+            "Bruno\\Mvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bruno Oliveira",
+            "email": "brunosoftware.qa@gmail.com"
+        }
+    ],
+    "require": {}
+}
